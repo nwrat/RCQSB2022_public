@@ -1,0 +1,63 @@
+###########
+Steps to recreate data and figures in Ratledge et al 2022.
+###########
+
+Run TC_creation_2km_3km_4km.R to create treatment and control groups for 2km, 3km and 4km grid buffers.  
+
+Figure 1, a-c:
+-     Run Figure01.R. This script will load all data frames and produce Figure 1, a-c.
+
+Figure 2, a-c:
+-     Run Figure02.R. This script will load all data frames and produce Figure 2, a-c.
+
+Figure 3, a-b:
+-     Data prep. Run Figure03_results_withUG.R, Figure03_results_withoutUG.R, Figure03_results_full_country_n500.R, Figure03_IDW.R, Figure03_two_unit_dd_data_creation.R, 
+-     Run Figure03.R. This script will load all data frames and produce Figure 3, a-b.
+-     Note. Depending on your computer Figure03_results_withUG.R, Figure03_results_withoutUG.R, Figure03_results_full_country_n500.R can take several hours to run. You can get very similar results by reducing the model runs from 500. 
+
+ED Figure 1
+-     NA. ED Figure is a descriptive flow chart.
+
+ED Figure 2
+-     Run EDFigure02.R. This script will load all data frames and produce ED Figure 2.  
+
+ED Figure 3
+-     Run EDFigure03.R. This script will load all data frames and produce ED Figure 3.  
+
+ED Figure 4
+-     Run EDFigure04.R. This script will load all data frames and produce ED Figure 4.  
+
+ED Figure 5
+-     Run EDFigure05.R. This script will load all data frames and produce ED Figure 5.  
+
+ED Figure 06
+-     Data prep. Run EDFigure06a_data_creation.R and EDFigure06bc_data_creation.R, which creates the data frames that are used in the EDFigure06.R.
+-     Run EDFigure06.R. This script will load all data frames and produce ED Figure 06 a-c.  
+
+ED Figure 07
+-     Data prep. Run EDFigure07a_data_prep.R, which creates the data frames that are used in the EDFigure07.R.
+-     Run EDFigure07.R. This script will load all data frames and produce ED Figure 07.  
+
+ED Figure 08
+-     Data prep. Run EDFigure08_data_prep.R, which runs the analysis that is used in the EDFigure08.R.
+-     Run EDFigure08.R. This script will load all data frames and produce ED Figure 08.    
+
+ED Figure 09
+-     Data prep. Run EDFigure09_data_prep.R, which runs the analysis that is used in the EDFigure09.R.
+-     Run EDFigure09.R. This script will load all data frames and produce ED Figure 09.    
+
+ED Figure 10
+-     Run EDFigure10.R. This script will load all data frames and produce ED Figure 10 and the accompanying inset.  (Some color highlights and labelling were added in Illustrator.)
+
+ED Figure 11
+-     Data prep. Run EDFigure11_data_prep.R, which creates the data frames that are used in the EDFigure11.R.
+-     Run EDFigure11.R. This script will load all data frames and produce ED Figure 11 and the accompanying inset.
+
+ED Figure 12
+-     Data prep. Run EDFigure12_data_prep.R, which creates the data frames that are used in the EDFigure12.R.
+-     Run EDFigure12.R. This script will load all data frames and produce ED Figure 12 and the accompanying inset.  
+
+ED Figure 13
+-     Data and code for ED Figure 13 is not included in this public repo because of DHS licensing rules prohibiting users from releasing raw data.  The figure is available in figures/clean.
+
+Calculations that are in the text but not in the main or extended data figures can be found in the “WI_paper_calculations.R” script in /analysis folder.
